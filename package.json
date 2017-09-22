@@ -1,6 +1,6 @@
 {
   "name": "delay.js",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "promisified setTimeout",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
@@ -14,11 +14,12 @@
     "url": "https://github.com/inker/delay.js"
   },
   "keywords": [
-    "blurry",
-    "chrome",
-    "translate3d",
-    "text",
-    "webkit"
+    "delay",
+    "sleep",
+    "setTimeout",
+    "timeout",
+    "async",
+    "promise"
   ],
   "author": "Anton Veselyev",
   "license": "ISC",
