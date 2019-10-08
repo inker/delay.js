@@ -2,12 +2,12 @@
   "name": "delay.js",
   "version": "1.0.2",
   "description": "promisified setTimeout",
-  "main": "lib/index.js",
-  "types": "lib/index.d.ts",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "rm -rf lib && tsc",
-    "build-publish": "sh build/publish.sh"
+    "release": "np",
+    "build": "rm -rf dist && tsc"
   },
   "repository": {
     "type": "git",
@@ -24,6 +24,7 @@
   "author": "Anton Veselyev",
   "license": "ISC",
   "devDependencies": {
-    "typescript": "^2.5.2"
+    "np": "^5.1.0",
+    "typescript": "^3.6.3"
   }
 }
